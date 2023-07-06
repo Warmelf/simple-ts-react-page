@@ -1,0 +1,28 @@
+.reviews__list {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.pagination__list {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.pagination__link {
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    background-color: rgb(121, 14, 118);
+    border-radius: 7px;
+}
+
+.pagination__link:hover {
+    background-color: rgb(205, 45, 200);
+}
